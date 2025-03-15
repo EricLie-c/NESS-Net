@@ -20,9 +20,17 @@ pip install -r requirements.txt
 
 ### Datasets
 
-We provide [download link]() for the test dataset, and [download link]() for train dataset.
+We provide [download link](https://pan.baidu.com/s/1LzqQdXzMX5KlTzPig__sOg) for the test dataset, and [download link](https://pan.baidu.com/s/127EpOvMOUlZxlTjByX66Lw) for train dataset. The extraction code is `ness`.
 
 After unzipping, please move the folders in the test set to `./dataset/test_data`, and the folders in the training set to `./dataset/train_data`.
+
+### Pretrained Models
+
+We provide the parameter file for [Swin-B](https://pan.baidu.com/s/1J_inJbuq7yHsF-vqAnW2Qg), as well as the trained model parameter files for the [general stage](https://pan.baidu.com/s/1j7gSNAUQWXWcpWVLw8KtuA) and [refinement stage](https://pan.baidu.com/s/172XRL8YZVOjjfJsfdkfCNg) for replication purposes.
+
+Place the Swin-B model parameter file in the current directory, and place the model parameter files for both the general stage and refinement stage into the checkpoints folder.
+
+---
 
 Then, during the general stage, we use the following command to train:
 
@@ -67,7 +75,7 @@ refer to [opencv-install](https://waltpeter.github.io/open-cv-basic/install-ope
 
 refer to [matlab-install](https://blog.csdn.net/mziing/article/details/122422397)
 
-### convert NAMLab Hierarchical Image Segmentation map to NAMLab boundary map
+### Convert NAMLab Hierarchical Image Segmentation map to NAMLab boundary map
 
 ```bash
 python convertmat.py --/path/to/data --/path/to/result

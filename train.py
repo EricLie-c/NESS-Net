@@ -233,7 +233,7 @@ def train(train_loader, model, teacher_model, optimizer, epoch):
     save_path = opt.output_dir
     if not os.path.exists(save_path):
         os.makedirs(save_path)
-    if epoch % 1 == 0:
+    if epoch % 5 == 0:
         if opt.general_stage:
             torch.save(model.state_dict(), os.path.join(save_path, 'NESS_general_{}.pth'.format(epoch)))
         else:
