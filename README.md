@@ -95,7 +95,7 @@ python start_namlab.py
 ## Results
 
 ### Quantitative Comparison                                    
-![](./result.png)
+![](https://github.com/user-attachments/assets/ad50e0e0-aaa8-443c-887b-6074979baa06)
 
 ### Qualitative Comparison
 ![](https://github.com/user-attachments/assets/36ed409e-3f1f-44c4-9e0a-803085ff9746)
