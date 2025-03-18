@@ -28,8 +28,6 @@ We provide the parameter file for [Swin-B](https://pan.baidu.com/s/1J_inJbuq7yHs
 
 Place the Swin-B model parameter file in the current directory, and place the model parameter files for both the general stage and refinement stage into the checkpoints folder.
 
----
-
 Then, during the general stage, we use the following command to train:
 
 ```bash
@@ -75,15 +73,23 @@ refer to [matlab-install](https://blog.csdn.net/mziing/article/details/12242239
 
 ### Convert NAMLab Hierarchical Image Segmentation map to NAMLab boundary map
 
+Replace the `run_dataset.cpp` in the specified location with the `run_dataset.cpp` we provided. Afterward, run the program and follow the on-screen prompts to enter the input dataset path and output directory. 
+
+If the process is slow, you can use the `namlab.pyd` dynamic library we provided. Replace the path in `start_namlab.py` with your own input and output dataset path, and then simply run the command below:
+
+```bash
+mkdir /path/to/your/output_dir
+python start_namlab.py
+```
+
+**Note** 
+
+> Sometimes it may fail, try multiple times if needed.
 
 ## Results
-                                    
+
+### Quantitative Comparison                                    
 ![](./result.png)
+
+### Qualitative Comparison
 ![](https://github.com/user-attachments/assets/36ed409e-3f1f-44c4-9e0a-803085ff9746)
-
-
-
-
-
-
-
