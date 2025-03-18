@@ -75,7 +75,7 @@ refer to [matlab-install](https://blog.csdn.net/mziing/article/details/12242239
 
 Replace the `run_dataset.cpp` in the original project with the `run_dataset.cpp` we provided. 
 
-Afterward, Configure the code and dependencies according to the original project's instructions.
+Afterward, configure the code and dependencies according to the original project's instructions.
 
 Then, follow the on-screen prompts to enter the input dataset path and output directory. 
 
