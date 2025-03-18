@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 We provide [download link](https://pan.baidu.com/s/1LzqQdXzMX5KlTzPig__sOg) for the test dataset, and [download link](https://pan.baidu.com/s/127EpOvMOUlZxlTjByX66Lw) for train dataset. The extraction code is `ness`.
 
-After unzipping, please move the folders in the test set to `./dataset/test_data`, and the folders in the training set to `./dataset/train_data`.
+After unzipping, please move the folders in the test set to `./dataset/test_data`, and the folders in the train set to `./dataset/train_data`.
 
 ### Pretrained Models
 
