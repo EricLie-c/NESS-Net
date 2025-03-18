@@ -75,9 +75,12 @@ refer to [matlab-install](https://blog.csdn.net/mziing/article/details/12242239
 
 ### Convert NAMLab Hierarchical Image Segmentation map to NAMLab boundary map
 
+
 ## Results
                                     
 ![](./result.png)
+![](https://github.com/user-attachments/assets/36ed409e-3f1f-44c4-9e0a-803085ff9746)
+
 
 
 
