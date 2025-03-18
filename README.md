@@ -75,10 +75,10 @@ refer to [opencv-install](https://waltpeter.github.io/open-cv-basic/install-ope
 
 refer to [matlab-install](https://blog.csdn.net/mziing/article/details/122422397)
 
-### Convert NAMLab Hierarchical Image Segmentation map to NAMLab boundary map
+### Generate NAMLab boundary map
 
 ```bash
-python convertmat.py --/path/to/data --/path/to/result
+
 ```
 
 ## Results
