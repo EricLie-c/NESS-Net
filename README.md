@@ -1,7 +1,5 @@
 # NESS-Net
 
----
-
 ## Description
 
 This is the specific implementation of our paper: "NESS-Net: A NAMLab Edge-Guided and Scribble-Supervised Swin-Transformer Net for RGB-D SOD."
@@ -26,11 +24,9 @@ After unzipping, please move the folders in the test set to `./dataset/test_data
 
 ### Pretrained Models
 
-We provide the parameter file for [Swin-B](https://pan.baidu.com/s/1J_inJbuq7yHsF-vqAnW2Qg), as well as the trained model parameter files for the [general stage](https://pan.baidu.com/s/1j7gSNAUQWXWcpWVLw8KtuA) and [refinement stage](https://pan.baidu.com/s/172XRL8YZVOjjfJsfdkfCNg) for replication purposes.
+We provide the parameter file for [Swin-B](https://pan.baidu.com/s/1J_inJbuq7yHsF-vqAnW2Qg), as well as the trained model parameter files for the [general stage](https://pan.baidu.com/s/1j7gSNAUQWXWcpWVLw8KtuA) and [refinement stage](https://pan.baidu.com/s/172XRL8YZVOjjfJsfdkfCNg) for replication purposes. The extraction code is `ness`.
 
 Place the Swin-B model parameter file in the current directory, and place the model parameter files for both the general stage and refinement stage into the checkpoints folder.
-
----
 
 Then, during the general stage, we use the following command to train:
 
@@ -77,16 +73,27 @@ refer to [matlab-install](https://blog.csdn.net/mziing/article/details/12242239
 
 ### Generate NAMLab boundary map
 
-```bash
+Replace the `run_dataset.cpp` in the specified location with the `run_dataset.cpp` we provided. Afterward, run the program and follow the on-screen prompts to enter the input dataset path and output directory. 
 
+If the process is slow, you can use the `namlab.pyd` dynamic library we provided. Replace the path in `start_namlab.py` with your own input and output dataset path, and then simply run the command below:
+
+```bash
+<<<<<<< HEAD
+
+=======
+mkdir /path/to/your/output_dir
+python start_namlab.py
+>>>>>>> 334519daa4c34b7b8fee07b864d42ce088ceb089
 ```
 
+**Note** 
+
+> Sometimes it may fail, try multiple times if needed.
+
 ## Results
-                                    
+
+### Quantitative Comparison                                    
 ![](./result.png)
 
-
-
-
-
-
+### Qualitative Comparison
+![](https://github.com/user-attachments/assets/36ed409e-3f1f-44c4-9e0a-803085ff9746)
