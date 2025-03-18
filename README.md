@@ -78,12 +78,8 @@ Replace the `run_dataset.cpp` in the specified location with the `run_dataset.cp
 If the process is slow, you can use the `namlab.pyd` dynamic library we provided. Replace the path in `start_namlab.py` with your own input and output dataset path, and then simply run the command below:
 
 ```bash
-<<<<<<< HEAD
-
-=======
 mkdir /path/to/your/output_dir
 python start_namlab.py
->>>>>>> 334519daa4c34b7b8fee07b864d42ce088ceb089
 ```
 
 **Note** 
