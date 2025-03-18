@@ -63,9 +63,9 @@ python main.py
 
 ## NAMLab boundary data preparation
 
-refer to [NAMLab](https://github.com/YunpingZheng/NAMLab)
+For reference to the original project [NAMLab](https://github.com/YunpingZheng/NAMLab)
 
-### NAMLAB environment[](https://github.com/CrownOfStars/NGSNet#config-namlab-environment)
+### Environment[](https://github.com/CrownOfStars/NGSNet#config-namlab-environment)
 
 refer to [opencv-install](https://waltpeter.github.io/open-cv-basic/install-opencv-ubuntu-cpp/index.html)
 
@@ -73,9 +73,15 @@ refer to [matlab-install](https://blog.csdn.net/mziing/article/details/12242239
 
 ### Generate NAMLab boundary map
 
-Replace the `run_dataset.cpp` in the specified location with the `run_dataset.cpp` we provided. Afterward, run the program and follow the on-screen prompts to enter the input dataset path and output directory. 
+Replace the `run_dataset.cpp` in the original project with the `run_dataset.cpp` we provided. 
 
-If the process is slow, you can use the `namlab.pyd` dynamic library we provided. Replace the path in `start_namlab.py` with your own input and output dataset path, and then simply run the command below:
+Afterward, Configure the code and dependencies according to the original project's instructions.
+
+Then, follow the on-screen prompts to enter the input dataset path and output directory. 
+
+If the process is slow or you encounter difficulties when configuring the original project environment, you can just use the `namlab.pyd` dynamic library we provided. 
+
+Replace the paths in `start_namlab.py` with your own dataset path, and then simply run the command below:
 
 ```bash
 mkdir /path/to/your/output_dir
