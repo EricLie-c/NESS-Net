@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the specific implementation of our paper: "NESS-Net: A NAMLab Edge-Guided and Scribble-Supervised Swin-Transformer Net for RGB-D SOD."
+This is the specific implementation of our paper: "NESS-Net: An NAMLab Edge-Guided and Scribble-Supervised Swin-Transformer Net for RGB-D Salient Object Detection", IEEE Transactions on Circuits and Systems for Video Technology, 2026. [https://doi.org/10.1109/TCSVT.2026.3673067](https://doi.org/10.1109/TCSVT.2026.3673067)
 
 ## Environmental Setups
 
